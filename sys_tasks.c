@@ -36,7 +36,7 @@ void TASK_10ms()
 
 void TASK_100ms()
 { 
-    Secventa1();
+//    Secventa1();
 }
 
 void TASK_500ms()

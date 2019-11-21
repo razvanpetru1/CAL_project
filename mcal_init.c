@@ -8,12 +8,12 @@
 ********************************************************************************/
 void MCAL_vInit()
 {
-    OSC_vInit();
-    ADC_vInit();
-    PWM1_vInit();
-    INT_vInit(); 
-    SPI_RF_vInit();
-    QEI_vInit();
-    TIM2_vInit();
-    TIM3_vInit(); 
+    OSC_vInit();        // initializare Osciloscop
+    ADC_vInit();        // initializare ADC
+    PWM1_vInit();       // Initilizare PWM
+    INT_vInit();        // Initializare intreruperi
+    SPI_RF_vInit();     //Initializes the SPI Module to work specifically with the 
+                       //nRF24L01 RF Module. 
+    TIM2_vInit();       //Initializes Timer 2 module
+    TIM3_vInit();       //Initializes Timer 3 module
 }
