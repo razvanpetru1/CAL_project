@@ -23,6 +23,8 @@
       <itemPath>hal_dc.h</itemPath>
       <itemPath>asw_move.h</itemPath>
       <itemPath>rte.h</itemPath>
+      <itemPath>hal_servo.h</itemPath>
+      <itemPath>asw_servo.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -48,6 +50,8 @@
       <itemPath>Led.c</itemPath>
       <itemPath>hal_dc.c</itemPath>
       <itemPath>asw_move.c</itemPath>
+      <itemPath>hal_servo.c</itemPath>
+      <itemPath>asw_servo.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -224,6 +228,9 @@
         <property key="relaxed-math" value="false"/>
         <property key="save-temps" value="false"/>
       </C30Global>
+      <PICkit3PlatformTool>
+        <property key="firmware.download.all" value="false"/>
+      </PICkit3PlatformTool>
     </conf>
   </confs>
 </configurationDescriptor>

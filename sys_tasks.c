@@ -7,11 +7,12 @@
 
 #include "general.h"
 #include "sys_tasks.h"
-
+#include "asw_servo.h"
 #include "mcal_init.h"
 #include "asw_com.h"
 
 T_U16 a = 0;
+
 
 void TASK_Inits()
 {
@@ -36,7 +37,14 @@ void TASK_10ms()
 
 void TASK_100ms()
 { 
-//    Secventa1();
+    // Secventa1();
+    // Move();
+   // Angle(90);
+   LeftRight();
+    
+     
+    
+     
 }
 
 void TASK_500ms()

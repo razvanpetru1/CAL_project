@@ -11,6 +11,7 @@
 #define RTE_vSetMotorSpeed HAL_vSetMotorSpeed
 #define RTE_vInit HAL_vInit
 #define RTE_vSetMotorDir  HAL_vSetMotorDir
+#define RTE_vSetServoAngle HAL_vSetServoAngle
 
 #ifdef	__cplusplus
 extern "C" {
